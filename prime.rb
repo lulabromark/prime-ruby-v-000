@@ -1,4 +1,4 @@
 def prime?(num)
-  (2..Math.sqrt(num)).each { |i| return false if num % i == 0}
-  true
+  (2..Math.sqrt(num)).each { |i| return true if num % i !== 0}
+  
 end
